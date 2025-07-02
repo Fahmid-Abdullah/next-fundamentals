@@ -1,0 +1,29 @@
+✅ App Router Curriculum Plan: Step-by-Step Learning
+
+Each step builds upon the last, with an emphasis on real-world usage and layering complexity gradually.
+
+Route		Title						Topics Covered									Key Concepts
+/learn/1	🧱 Intro to Next.js App Router		App Router structure, layouts, pages, server vs client components	Modern architecture
+/learn/2	🔁 Routing & Dynamic Routing		File-based routing, nested routes, [slug], not-found.tsx, error.tsx	Navigation patterns
+/learn/3	🧪 Rendering Strategies			CSR, SSR, ISR, SSG via fetch() and cache, revalidate		Rendering control
+/learn/4	💾 Data Fetching & Caching		fetch() caching strategies, ISR, revalidateTag, router.refresh()	Cache mastery
+/learn/5	🧠 useState & useEffect			Client components, local state, side effects			React fundamentals
+/learn/6	🔄 useRef & useContext			References, global shared state				Comms & access
+/learn/7	🚀 useMemo, useCallback, useReducer	Optimizations, reducer patterns				Performance tools
+/learn/8	⏳ Debouncing & Throttling		Input handling with debounce logic				UX optimization
+/learn/9	🧩 Dynamic Imports & Suspense		next/dynamic, lazy loading, loading UI			Code splitting
+/learn/10	⚠️ Loading UI & Error Boundaries		loading.tsx, error.tsx, fallback patterns			UX fail-safes
+/learn/11	✅ Zod for Validation			Zod + forms, schema safety, API guards			Schema-first dev
+/learn/12	🔐 Supabase Auth & Setup		Connecting Supabase, env vars, auth flow			DB + login
+/learn/13	💬 Realtime Chat (Supabase or Socket.IO)	Subscriptions, or socket.io integration			WebSocket usage
+/learn/14	💳 Stripe Integration			Stripe checkout, webhooks, products				Payments 101
+/learn/15	🧪 Middleware				Request-based logic, auth guards, geolocation		Server filters
+/learn/16	🍪 Cookies & Sessions			cookies(), secure cookies, HTTP-only, client access	State persistence
+/learn/17	🔐 HTTP Headers & Security		CORS, cache headers, security policies			Web protection
+/learn/18	🖼️ Image Optimization			next/image, blur placeholders, responsive sizes		Asset performance
+/learn/19	🌍 CDN & Edge Runtime			Edge functions, CDN caching, force-dynamic			Global scale
+/learn/20	🔄 SWR & Client Data Fetching		useSWR, revalidate strategies, fallback			Client fetch + cache
+/learn/21	🔁 Router Refresh & Manual Revalidation	router.refresh(), revalidatePath, revalidateTag()		Refresh flows
+/learn/22	🧠 Advanced Caching Logic		cache(), ISR vs full rebuilds, tag invalidation		Full caching control
+/learn/23	🧩 Custom Headers & Meta Tags		generateMetadata, custom headers, SEO			Metadata mastery
+/learn/24	🚀 Deployment & Wrap-Up			Deploy to Vercel, env, performance, review			Going live
