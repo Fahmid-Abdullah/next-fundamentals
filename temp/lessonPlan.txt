@@ -2,28 +2,123 @@
 
 Each step builds upon the last, with an emphasis on real-world usage and layering complexity gradually.
 
-Route		Title						Topics Covered									Key Concepts
-/learn/1	🧱 Intro to Next.js App Router		App Router structure, layouts, pages, server vs client components	Modern architecture
-/learn/2	🔁 Routing & Dynamic Routing		File-based routing, nested routes, [slug], not-found.tsx, error.tsx	Navigation patterns
-/learn/3	🧪 Rendering Strategies			CSR, SSR, ISR, SSG via fetch() and cache, revalidate		Rendering control
-/learn/4	💾 Data Fetching & Caching		fetch() caching strategies, ISR, revalidateTag, router.refresh()	Cache mastery
-/learn/5	🧠 useState & useEffect			Client components, local state, side effects			React fundamentals
-/learn/6	🔄 useRef & useContext			References, global shared state				Comms & access
-/learn/7	🚀 useMemo, useCallback, useReducer	Optimizations, reducer patterns				Performance tools
-/learn/8	⏳ Debouncing & Throttling		Input handling with debounce logic				UX optimization
-/learn/9	🧩 Dynamic Imports & Suspense		next/dynamic, lazy loading, loading UI			Code splitting
-/learn/10	⚠️ Loading UI & Error Boundaries		loading.tsx, error.tsx, fallback patterns			UX fail-safes
-/learn/11	✅ Zod for Validation			Zod + forms, schema safety, API guards			Schema-first dev
-/learn/12	🔐 Supabase Auth & Setup		Connecting Supabase, env vars, auth flow			DB + login
-/learn/13	💬 Realtime Chat (Supabase or Socket.IO)	Subscriptions, or socket.io integration			WebSocket usage
-/learn/14	💳 Stripe Integration			Stripe checkout, webhooks, products				Payments 101
-/learn/15	🧪 Middleware				Request-based logic, auth guards, geolocation		Server filters
-/learn/16	🍪 Cookies & Sessions			cookies(), secure cookies, HTTP-only, client access	State persistence
-/learn/17	🔐 HTTP Headers & Security		CORS, cache headers, security policies			Web protection
-/learn/18	🖼️ Image Optimization			next/image, blur placeholders, responsive sizes		Asset performance
-/learn/19	🌍 CDN & Edge Runtime			Edge functions, CDN caching, force-dynamic			Global scale
-/learn/20	🔄 SWR & Client Data Fetching		useSWR, revalidate strategies, fallback			Client fetch + cache
-/learn/21	🔁 Router Refresh & Manual Revalidation	router.refresh(), revalidatePath, revalidateTag()		Refresh flows
-/learn/22	🧠 Advanced Caching Logic		cache(), ISR vs full rebuilds, tag invalidation		Full caching control
-/learn/23	🧩 Custom Headers & Meta Tags		generateMetadata, custom headers, SEO			Metadata mastery
-/learn/24	🚀 Deployment & Wrap-Up			Deploy to Vercel, env, performance, review			Going live
+────────────────────────────────────────────────────────────
+Route:         /learn/1
+Title:         🧱 Intro to Next.js App Router
+Topics:        App Router structure, layouts, pages, server vs client components
+Key Concepts:  Modern architecture
+────────────────────────────────────────────────────────────
+Route:         /learn/2
+Title:         🔁 Routing & Dynamic Routing
+Topics:        File-based routing, nested routes, [slug], not-found.tsx, error.tsx
+Key Concepts:  Navigation patterns
+────────────────────────────────────────────────────────────
+Route:         /learn/3
+Title:         🧪 Rendering Strategies
+Topics:        CSR, SSR, ISR, SSG via fetch() 
+Key Concepts:  Rendering control
+────────────────────────────────────────────────────────────
+Route:         /learn/4
+Title:         💾 Data Fetching & Caching
+Topics:        fetch() caching strategies, ISR, revalidateTag, router.refresh(), cache, and revalidate
+Key Concepts:  Cache mastery
+────────────────────────────────────────────────────────────
+Route:         /learn/5
+Title:         🧠 useState & useEffect
+Topics:        Client components, local state, side effects
+Key Concepts:  React fundamentals
+────────────────────────────────────────────────────────────
+Route:         /learn/6
+Title:         🔄 useRef & useContext
+Topics:        References, global shared state
+Key Concepts:  Comms & access
+────────────────────────────────────────────────────────────
+Route:         /learn/7
+Title:         🚀 useMemo, useCallback, useReducer
+Topics:        Optimizations, reducer patterns
+Key Concepts:  Performance tools
+────────────────────────────────────────────────────────────
+Route:         /learn/8
+Title:         ⏳ Debouncing & Throttling
+Topics:        Input handling with debounce logic
+Key Concepts:  UX optimization
+────────────────────────────────────────────────────────────
+Route:         /learn/9
+Title:         🧩 Dynamic Imports & Suspense
+Topics:        next/dynamic, lazy loading, loading UI
+Key Concepts:  Code splitting
+────────────────────────────────────────────────────────────
+Route:         /learn/10
+Title:         ⚠️ Loading UI & Error Boundaries
+Topics:        loading.tsx, error.tsx, fallback patterns
+Key Concepts:  UX fail-safes
+────────────────────────────────────────────────────────────
+Route:         /learn/11
+Title:         ✅ Zod for Validation
+Topics:        Zod + forms, schema safety, API guards
+Key Concepts:  Schema-first dev
+────────────────────────────────────────────────────────────
+Route:         /learn/12
+Title:         🔐 Supabase Auth & Setup
+Topics:        Connecting Supabase, env vars, auth flow
+Key Concepts:  DB + login
+────────────────────────────────────────────────────────────
+Route:         /learn/13
+Title:         💬 Realtime Chat (Supabase or Socket.IO)
+Topics:        Subscriptions, or socket.io integration
+Key Concepts:  WebSocket usage
+────────────────────────────────────────────────────────────
+Route:         /learn/14
+Title:         💳 Stripe Integration
+Topics:        Stripe checkout, webhooks, products
+Key Concepts:  Payments 101
+────────────────────────────────────────────────────────────
+Route:         /learn/15
+Title:         🧪 Middleware
+Topics:        Request-based logic, auth guards, geolocation
+Key Concepts:  Server filters
+────────────────────────────────────────────────────────────
+Route:         /learn/16
+Title:         🍪 Cookies & Sessions
+Topics:        cookies(), secure cookies, HTTP-only, client access
+Key Concepts:  State persistence
+────────────────────────────────────────────────────────────
+Route:         /learn/17
+Title:         🔐 HTTP Headers & Security
+Topics:        CORS, cache headers, security policies
+Key Concepts:  Web protection
+────────────────────────────────────────────────────────────
+Route:         /learn/18
+Title:         🖼️ Image Optimization
+Topics:        next/image, blur placeholders, responsive sizes
+Key Concepts:  Asset performance
+────────────────────────────────────────────────────────────
+Route:         /learn/19
+Title:         🌍 CDN & Edge Runtime
+Topics:        Edge functions, CDN caching, force-dynamic
+Key Concepts:  Global scale
+────────────────────────────────────────────────────────────
+Route:         /learn/20
+Title:         🔄 SWR & Client Data Fetching
+Topics:        useSWR, revalidate strategies, fallback
+Key Concepts:  Client fetch + cache
+────────────────────────────────────────────────────────────
+Route:         /learn/21
+Title:         🔁 Router Refresh & Manual Revalidation
+Topics:        router.refresh(), revalidatePath, revalidateTag()
+Key Concepts:  Refresh flows
+────────────────────────────────────────────────────────────
+Route:         /learn/22
+Title:         🧠 Advanced Caching Logic
+Topics:        cache(), ISR vs full rebuilds, tag invalidation
+Key Concepts:  Full caching control
+────────────────────────────────────────────────────────────
+Route:         /learn/23
+Title:         🧩 Custom Headers & Meta Tags
+Topics:        generateMetadata, custom headers, SEO
+Key Concepts:  Metadata mastery
+────────────────────────────────────────────────────────────
+Route:         /learn/24
+Title:         🚀 Deployment & Wrap-Up
+Topics:        Deploy to Vercel, env, performance, review
+Key Concepts:  Going live
